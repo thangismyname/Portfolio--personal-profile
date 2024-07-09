@@ -25,7 +25,7 @@ p {
 
 a, 
     .btn {
-        transition: all 500ms ease;
+        transition: all 700ms ease;
     }
 
 /* DESKTOP NAVIGATION */
@@ -37,14 +37,14 @@ nav,
 nav {
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
+    height: 15vh;
 }
 
 .nav-links {
     font-family: "Sansita", sans-serif;
     gap: 2rem;
     list-style: none;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 a {
@@ -61,7 +61,7 @@ a:hover {
 }
 
 .logo {
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-family: "Sansita", sans-serif;
 }
 
@@ -160,7 +160,7 @@ section {
     min-height: fit-content;
 }
 
-.section-containter {
+.section-container {
     display: flex;
 }
 
@@ -190,6 +190,7 @@ section {
 }
 
 .section__text__p1 {
+    font-size: 1.2rem;
     text-align: center;
 }
 
@@ -264,6 +265,59 @@ section {
     gap: 1rem;
 }
 
+/* ABOUT SECTION */
+
+#about {
+    position: relative;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers, .about-details-container {
+    display: flex;
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
+
+.section_pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+
 /* DARK MODE */
 
 .dark-mode {
@@ -300,3 +354,4 @@ section {
     height: 150%;
     width: auto;
 }
+
