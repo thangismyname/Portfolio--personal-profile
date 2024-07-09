@@ -101,7 +101,7 @@ cursor: default;
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: white;
+    background-color: rgb(244, 244, 244);
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -170,7 +170,7 @@ section {
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 80vh;
+    height: 84vh;
 }
 
 .section_pic-container {
@@ -191,18 +191,19 @@ section {
 
 .section__text__p1 {
     font-size: 1.2rem;
+    margin-bottom: 0.7rem;
     text-align: center;
 }
 
 .section__text__p2 {
     font-size: 1.75rem;
     margin-bottom: 1rem;
-    color: rgb(8, 93, 0);
+    color: rgb(19, 70, 15);
 }
 
 .title {
     
-    font-size: 3rem;
+    font-size: 3.2rem;
     text-align: center;
 }
 
@@ -297,11 +298,12 @@ section {
 }
 
 .details-container {
+    font-size: 1.3rem;
     padding: 1.5rem;
     flex: 1;
-    background: white;
+    background: rgb(230, 230, 230);
     border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
+    border: rgb(53, 53, 53) 0.2rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
 }
@@ -317,6 +319,75 @@ section {
     margin: auto 0;
 }
 
+.text-container {
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+/* EXPERIENCE SECTION */
+
+#experience {
+    position: relative;
+}
+
+.experience-sub-title {
+    color: rgb(19, 70, 15);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.experience-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+article {
+    display: flex;
+    width: 10rem;
+    gap: 0.5rem;
+}
+
+article .icon {
+    cursor: default;
+}
+
+/* PROJECTS SECTION */
+
+#projects {
+position: relative;
+}
+
+.color-container {
+    border-color: rgb(163, 163, 163);
+    background: rgb(250, 250, 250);
+}
+
+.project-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
+
+.project-title {
+    margin: 1rem;
+    color: black;
+}
+
+.project-btn {
+    color: black;
+    border-color: rgb(163, 163, 163);
+}
 
 /* DARK MODE */
 
@@ -345,13 +416,29 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 24px;
-    width: 30px;
     cursor: pointer;
 }
 
 .dark-mode-toggle img {
     height: 150%;
     width: auto;
+}
+
+.dark-mode .details-container {
+padding: 1.5rem;
+    flex: 1;
+    background: #090909;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.2rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+.dark-mode .section__text__p2 {
+    color: rgb(64, 184, 53);
+}
+
+.dark-mode .experience-sub-title {
+    color: rgb(64, 184, 53);
 }
 
