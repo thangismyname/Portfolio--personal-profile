@@ -43,6 +43,10 @@ function toggleDarkMode(event) {
                 icon.setAttribute('src', './assets/arrow_white.png');
             } else if (currentSrc.includes('checkmark.png')) {
                 icon.setAttribute('src', './assets/checkmark_white.png');
+            } else if (currentSrc.includes('email.png')) {
+                icon.setAttribute('src', './assets/email_white.png');
+            } else if (currentSrc.includes('phone.png')) {
+                icon.setAttribute('src', './assets/phone_white.png');
             } 
         } else {
             // Change to dark version
@@ -60,6 +64,10 @@ function toggleDarkMode(event) {
                 icon.setAttribute('src', './assets/arrow.png');
             } else if (currentSrc.includes('checkamrk_white.png')) {
                 icon.setAttribute('src', './assets/checkmark.png');
+            } else if (currentSrc.includes('email_white.png')) {
+                icon.setAttribute('src', './assets/email.png');
+            } else if (currentSrc.includes('phone_white.png')) {
+                icon.setAttribute('src', './assets/phone.png');
             } 
         }
     });
