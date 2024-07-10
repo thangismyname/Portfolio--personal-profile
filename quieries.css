@@ -122,3 +122,14 @@
     }
 
 }
+
+@media screen and (max-width: 1830px) {
+
+    #experience, .experience-details-container {
+        margin-top: 2rem;
+    }
+
+    .about-containers, .contact-info-upper-container, .btn-container{
+        flex-wrap: wrap;
+    } 
+}
