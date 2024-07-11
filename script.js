@@ -73,6 +73,19 @@ function toggleDarkMode(event) {
     });
 }
 
+// Change the profile picture
+const profilePic = document.getElementById("profile-pic");
+if (profilePic) {
+    const currentSrc = profilePic.getAttribute('src');
+    if (isDarkMode) {
+        profilePic.setAttribute('src', './assets/profile-pic-2.png');
+    } else {
+        profilePic.setAttribute('src', './assets/profile-pic.png');
+    }
+}
+
+
+
 document.addEventListener("DOMContentLoaded", () => {
     const darkModeToggleDesktop = document.getElementById("desktop-dark-mode-toggle");
     const darkModeToggleHamburger = document.getElementById("hamburger-dark-mode-toggle");
