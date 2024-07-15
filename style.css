@@ -198,7 +198,7 @@ section {
 .section__text__p2 {
     font-size: 1.75rem;
     margin-bottom: 1rem;
-    color: rgb(19, 70, 15);
+    color: rgb(8, 115, 0);
 }
 
 .title {
@@ -241,24 +241,26 @@ section {
     border: rgb(53, 53, 53) 0.1rem solid;
 }
 
-.btn-color-1:hover, .btn-color2:hover {
-    cursor: pointer;
-}
-
-.btn-color-1, .btn-color2:hover {
-    background:  rgb(53, 53, 53);
+.btn-color-1 {
+    background: rgb(53, 53, 53);
     color: rgb(255, 255, 255);
 }
 
+.btn-color-2 {
+    background: rgb(255, 255, 255) ;
+    color: rgb(53, 53, 53);
+}
+
 .btn-color-1:hover {
-    background: rgb(88, 88, 88);
+    cursor: pointer;
+    background: rgb(0, 234, 82);
+    color: rgb(53, 53, 53);
 }
 
-.btn-color2 {
-    border: none;
-}
-
-.btn-color2:hover {
+.btn-color-2:hover {
+    cursor: pointer;
+    background: rgb(0, 138, 48);
+    color: rgb(255, 255, 255);
     border: rgb(56, 56, 56) 0.1rem solid;
 }
 
@@ -331,7 +333,7 @@ section {
 }
 
 .experience-sub-title {
-    color: rgb(19, 70, 15);
+    color: rgb(8, 115, 0);
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
@@ -381,7 +383,7 @@ position: relative;
 
 .project-title {
     margin: 1rem;
-    color: black;
+    color: rgb(8, 115, 0);
 }
 
 .project-btn {
@@ -493,17 +495,31 @@ footer p {
     color: rgb(64, 184, 53);
 }
 
-.dark-mode .btn-color-2, .btn-color-1 {
-    border: rgb(53, 53, 53) 0.1rem solid;
+.dark-mode .project-title {
+    color: rgb(64, 184, 53);
 }
 
-.dark-mode .btn-color-2, .btn-color1:hover {
-    background:  rgb(53, 53, 53);
+.dark-mode .btn-color-1 {
+    background: rgb(255, 255, 255);
+    color: rgb(53, 53, 53);
+    border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+.dark-mode .btn-color-1:hover {
+    cursor: pointer;
+    background: rgb(0, 138, 48);
     color: rgb(255, 255, 255);
 }
 
-.dark-mode .btn-color-1, .btn-color2:hover {
-    background:  rgb(255, 255, 255);
+.dark-mode .btn-color-2 {
+    background: rgb(53, 53, 53);
+    color: rgb(255, 255, 255);
+    border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+.dark-mode .btn-color-2:hover {
+    cursor: pointer;
+    background: rgb(0, 234, 82);
     color: rgb(53, 53, 53);
 }
 

@@ -84,8 +84,6 @@ if (profilePic) {
     }
 }
 
-
-
 document.addEventListener("DOMContentLoaded", () => {
     const darkModeToggleDesktop = document.getElementById("desktop-dark-mode-toggle");
     const darkModeToggleHamburger = document.getElementById("hamburger-dark-mode-toggle");
